@@ -3,4 +3,4 @@ project(heap_heapsort C)
 
 set(CMAKE_C_STANDARD 11)
 
-add_executable(heap_heapsort main.c)
+add_executable(heap_heapsort main.c heap.c heap.h)
